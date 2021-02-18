@@ -5,6 +5,9 @@ import Contratos from './components/Contratos';
 import Navbar from './components/Navbar';
 import Cuentas from './components/Cuentas';
 
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   return (
     <Router>
@@ -15,6 +18,7 @@ function App() {
         <Route path="/cuentas" component={Cuentas} />
         <Route path="/" component={Contratos} />
       </Switch>
+      <ToastContainer/>
     </Router>
   );
 }
