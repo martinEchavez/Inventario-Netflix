@@ -1,8 +1,9 @@
 import React from 'react'
+import { Button } from 'reactstrap';
 
 const Contratos = () => {
     return (
-        <h2>Contratos</h2>
+        <Button color="danger">Danger!</Button>
     )
 }
 

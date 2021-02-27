@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import Calendar from 'react-calendar'
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 
 const Formulario = (props) => {
 
@@ -24,11 +26,11 @@ const Formulario = (props) => {
     }
 
     return (
-        <form className="card card-body" onSubmit={handleSubmit}>
+        <form className="card text-white bg-dark card-body" onSubmit={handleSubmit}>
             <h5 className="card-title text-center">Regístrar Cliente</h5>
             <div className="form-group input-group">
-                <div className="input-group-text bg-secondary">
-                    <i className="material-icons">person</i>
+                <div className="input-group-text bg-light">
+                    <FaUser/>
                 </div>
                 <input
                     type="text"
@@ -40,8 +42,8 @@ const Formulario = (props) => {
                 />
             </div>
             <div className="form-group input-group">
-                <div className="input-group-text bg-secondary">
-                    <i className="material-icons">phone</i>
+                <div className="input-group-text bg-light">
+                    <FaPhoneAlt/>
                 </div>
                 <input
                     type="number"
@@ -68,7 +70,7 @@ const Formulario = (props) => {
                     rows="3">
                 </textarea>
             </div>
-            <button className="btn btn-primary btn-block">
+            <button className="btn btn-danger btn-block">
                 Guardar
             </button>
         </form>

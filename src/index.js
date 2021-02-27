@@ -5,7 +5,7 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 import './firebase'
-import 'bootswatch/dist/journal/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-calendar/dist/Calendar.css'
 
 ReactDOM.render(
