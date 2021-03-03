@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Clientes from './components/Clientes/index';
-import Contratos from './components/Contratos';
+import Contratos from './components/Contratos/index';
+import Cuentas from './components/Cuentas/index';
 import Navegacion from './components/Navegacion';
-import Cuentas from './components/Cuentas';
 
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

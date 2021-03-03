@@ -4,7 +4,7 @@ import Tabla from './Tabla'
 import {db} from '../../firebase'
 import { toast } from 'react-toastify'
 
-const Clientes = () => {
+const Contratos = () => {
     const [clientes, setClientes] = useState([]);
 
     const onDelete = async (id) => {
@@ -40,7 +40,7 @@ const Clientes = () => {
     }
 
     return (
-        <div className="container p-2">
+        <div className="container-fluid p-2">
             <div className="row">
             <div className="col-md-12">
                     <Formulario
@@ -60,4 +60,4 @@ const Clientes = () => {
     )
 }
 
-export default Clientes;
+export default Contratos;

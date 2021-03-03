@@ -32,9 +32,9 @@ const Formulario = (props) => {
 
     return (
         <div>
-            <button className="btn btn-danger btn-block" onClick={toggle}><strong>Agregar Cliente</strong></button>
+            <button className="btn btn-danger btn-block" onClick={toggle}><strong>Agregar Cuenta</strong></button>
             <Modal isOpen={modal} toggle={toggle}>
-                <ModalHeader  className="text-white bg-dark" toggle={toggle}>Regístrar Cliente</ModalHeader>
+                <ModalHeader  className="text-white bg-dark" toggle={toggle}>Regístrar Cuenta</ModalHeader>
                 <ModalBody style={{ background: 'black', color: 'red'}}>
                     <form className="card text-white bg-dark card-body" onSubmit={handleSubmit}>
                         <div className="form-group input-group">

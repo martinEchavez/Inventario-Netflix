@@ -4,7 +4,7 @@ import Tabla from './Tabla'
 import {db} from '../../firebase'
 import { toast } from 'react-toastify'
 
-const Clientes = () => {
+const Cuentas = () => {
     const [clientes, setClientes] = useState([]);
 
     const onDelete = async (id) => {
@@ -60,4 +60,4 @@ const Clientes = () => {
     )
 }
 
-export default Clientes;
+export default Cuentas;
